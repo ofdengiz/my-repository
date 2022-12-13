@@ -19,4 +19,4 @@ def forth(id):
     return f"The id of this page is {id}"
 
 if __name__ == '__main__':
-  app.run(debug=True)
+  app.run(debug=False)
