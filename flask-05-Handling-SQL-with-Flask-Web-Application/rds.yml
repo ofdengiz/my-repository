@@ -18,7 +18,7 @@ Resources:
   rDBSecGrp:
     Type: AWS::EC2::SecurityGroup
     Properties:
-      GroupDescription: Security Group for MySQL RDS # Required
+      GroupDescription: Security Group for MySQL RDS
       SecurityGroupIngress:
         - IpProtocol: tcp
           FromPort: 3306
